@@ -4,7 +4,7 @@ import plotly.express as px
 from scipy import stats
 import os
 
-ARQUIVO_DADOS = "/tmp/dados_conexao_consciente.csv""
+ARQUIVO_DADOS = "/tmp/dados_conexao_consciente.csv"
 
 if not os.path.exists(ARQUIVO_DADOS):
     df_inicial = pd.DataFrame(columns=["Idade", "Tempo_Tela", "Principal_Uso", "Dificuldade_Concentracao"])
